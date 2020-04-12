@@ -2,13 +2,14 @@ module.exports = {
   configs: {
     recommended: {
       rules: {
-        'target-namespace': 'error'
+        'error-message': 'error',
+        'warning-message': 'warning'
       }
     },
     all: {
       rules: {
-        'target-namespace': 'warn',
-        'no-manual-task': 'warn'
+        'error-message': 'error',
+        'warning-message': 'warning',
       }
     }
   }

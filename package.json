@@ -1,12 +1,8 @@
 {
-  "name": "bpmnlint-plugin-example",
-  "version": "0.5.1",
-  "description": "A bpmnlint example plug-in",
+  "name": "bpmnlint-plugin-custom-messages",
+  "version": "1.0.1",
+  "description": "A bpmnlint custom plug-in",
   "main": "index.js",
-  "scripts": {
-    "all": "npm test",
-    "test": "mocha test.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bpmn-io/bpmnlint-plugin-example"
@@ -15,11 +11,6 @@
     "bpmnlint",
     "plugin"
   ],
-  "author": {
-    "name": "Nico Rehwaldt",
-    "url": "https://github.com/nikku"
-  },
-  "license": "MIT",
   "devDependencies": {
     "bpmnlint": "^6.1.0",
     "chai": "^4.2.0",
